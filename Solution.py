@@ -49,7 +49,7 @@ loglogistic_aft.print_summary()
 #STEO 4 PLOTS
 #VISUALIZE SURIVAL CURVES
 # Predicting and plotting the survival functions for a sample of individuals
-sample = telco_data_encoded.sample(25, random_state=42)  # Random sample of 25 customers for clearer visualization
+sample = telco_data_encoded.sample(3)  
 
 weibull_sf = weibull_aft.predict_survival_function(sample)
 lognormal_sf = lognormal_aft.predict_survival_function(sample)
