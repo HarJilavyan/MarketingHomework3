@@ -1,0 +1,16 @@
+Short Report 
+1)In our churn risk analysis using survival models, we have identified key factors that significantly impact customer retention. The Weibull, Log-Normal, and Log-Logistic Accelerated Failure Time (AFT) models were employed to understand the duration before churn. Across these models, coefficients for variables such as age, tenure, income, and marital status have shown notable influence. For instance, increased tenure and income typically lead to a decreased risk of churn, suggesting that longer-term and higher-income customers tend to be more loyal. Conversely, younger customers and those with less tenure are at higher risk, indicating potentially different expectations or experiences with the service.
+
+2)Identifying the most valuable segments involves analyzing which groups of customers have the highest Customer Lifetime Value (CLV) and lowest risk of churn. Customers with long tenure and higher income represent the most valuable segment due to their increased profitability and stability. This segment not only contributes more over time but is also less likely to churn, making retention efforts particularly cost-effective.
+
+3)Given the findings, an annual retention budget should focus on the segments identified at the highest risk and with substantial revenue impact. Assuming the analysis identifies 10% of customers as high-risk and likely to churn within the year, and the average CLV of these customers is $1,200, a retention budget proportionate to at least 10% of the potential revenue loss (i.e., $1,200 per high-risk customer) could be justified. This equates to approximately $120 per at-risk customer, leading to significant potential savings in revenue.
+
+4)For retention strategies, personalized marketing campaigns, loyalty programs, and enhanced customer service interventions should be considered, particularly targeted at younger and newer customers to increase their engagement and perceived value. Regular feedback loops and satisfaction surveys could also provide early detection of dissatisfaction, allowing preemptive action to improve the customer experience and retention rates.
+
+5)These recommendations are based on the survival model outputs and should be adjusted as more data becomes available or as market conditions evolve, ensuring that retention efforts remain efficient and relevant.
+
+
+
+
+
+
